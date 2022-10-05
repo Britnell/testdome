@@ -1,3 +1,5 @@
+// React is already loaded
+
 const Test = () => {
   const [state] = React.useState(0);
 
