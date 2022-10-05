@@ -2,9 +2,12 @@
   "name": "testdome",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {},
-  "devDependencies": {},
+  "source": "index.html",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
   "scripts": {
+    "dev": "parcel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
